@@ -24,7 +24,7 @@ html {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 1, 5rem;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -39,16 +39,20 @@ html {
 
 .Butt--rules {
   background-color: #1fcca4;
-  margin-bottom: 0.1rem;
 }
 .Butt--play {
   background-color: #0197f6;
 }
 
 .Butt--play:hover {
-  background-color: #1cbb96;
+  background-color: #0090e9;
 }
 
 .Butt--rules:hover {
-  background-color: #0090e9;
+  background-color: #1cbb96;
+}
+.Butt--rules,
+.Butt--play {
+  height: 4rem;
+  color: #ffffff;
 }
