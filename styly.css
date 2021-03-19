@@ -1,0 +1,26 @@
+.body {
+  background-color: linear-gradient(#615dad #ffc8da);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.h1 {
+  font-family: 'lobster', cursive;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.tlacitka {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__photo {
+  display: block;
+  width: 100%;
+}
