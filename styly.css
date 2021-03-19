@@ -5,23 +5,17 @@
   background-size: 100%;
   background-origin: border-box;
 }
-.h1 {
-  font-family: 'Lobster'; cursive;
-  font-size: 2rem;
-  margin: 0;
-}
-.p {
-  padding: 0;
-  margin-top: 0;
-}
+
+.text { line-height: 25px;}
 
 .container {
   width: 364px;
   background-color: #283e50;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  font-style:normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1, 5rem;
   display: flex;
   text-align: center;
@@ -29,6 +23,7 @@
   margin: auto;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  text-align: center;
 }
 
 .photo {
@@ -41,17 +36,17 @@
 
 .Butt--rules {
   background-color: #1fcca4;
-  height: 10px;
   width: 364px;
   position: relative;
   left: -1px;
+  padding-top: 25px;
 }
 .Butt--play {
   background-color: #0197f6;
-  height: 18px;
   width: 364px;
   position: relative;
   left: -1px;
+  padding-top: 25px;
 }
 
 .Butt--play:hover {
@@ -63,7 +58,9 @@
 }
 .Butt--rules,
 .Butt--play {
-  height: 4rem;
+  height: 50px;
   color: #ffffff;
   margin: 1px;
+  text-decoration: none;
+  text-align: center;
 }
