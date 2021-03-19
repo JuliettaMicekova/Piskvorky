@@ -6,7 +6,7 @@
   background-origin: border-box;
 }
 
-.text { line-height: 25px;}
+.text { line-height: 25px; align-self:center;}
 
 .container {
   width: 364px;
