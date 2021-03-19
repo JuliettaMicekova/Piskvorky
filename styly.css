@@ -1,8 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+
 .body {
   background-color: linear-gradient(#615dad #ffc8da);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 }
 .h1 {
   font-family: 'lobster', cursive;
@@ -12,15 +16,24 @@
 
 .container {
   display: flex;
-}
-
-.tlacitka {
-  box-sizing: border-box;
-  display: flex;
   flex-direction: column;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: center;
 }
 
 .container__photo {
   display: block;
   width: 100%;
+  position: center;
+}
+.container__text {
+  position: absolute;
+}
+.buttons {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
