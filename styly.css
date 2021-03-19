@@ -2,7 +2,7 @@
 .html{
   background-image:linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-origin: border-box;
 }
 .h1 {
@@ -27,13 +27,16 @@
   text-align: center;
   flex-direction: column;
   margin: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .photo {
   display: block;
   width: 364px;
   position: center;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .Butt--rules {
