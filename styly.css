@@ -14,7 +14,7 @@
 }
 .h1 {
   font-family: 'Lobster', cursive;
-  font-size: 10px;
+  font-size: 50px;
 }
 
 .container {
@@ -22,16 +22,17 @@
   background-color: #283e50;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: lighter;
+  font-style: sans-serif;
+  font-weight: 100;
+  font-stretch: extra-condensed;
   font-size: 16px;
   line-height: 1, 5rem;
   display: flex;
   text-align: center;
   flex-direction: column;
   margin: auto;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   text-align: center;
 }
 
@@ -39,8 +40,8 @@
   display: block;
   width: 364px;
   position: center;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .Butt--rules {
@@ -68,5 +69,4 @@
   text-decoration: none;
   text-align: center;
   font-weight: lighter;
-  /* height: 50px; */
 }
