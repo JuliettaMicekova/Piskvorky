@@ -10,11 +10,12 @@
 .text {
   line-height: 30px;
   align-self: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
-.h1 {
-  font-family: 'Lobster', cursive;
-  font-size: 50px;
+.Piškvorky {
+  font-family: 'Interstate Light', 'Lobster', cursive;
+  font-size: 150%;
+  letter-spacing: 2px;
 }
 
 .container {
