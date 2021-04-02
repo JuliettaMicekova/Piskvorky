@@ -1,10 +1,7 @@
 body {
   background-image: linear-gradient(#615dad, #ffc8da);
-  background-repeat: no-repeat;
-  background-size: 100%;
   background-origin: border-box;
-  padding-top: 70px;
-  padding-bottom: 150px;
+  height: 100vh;
 }
 
 p {
@@ -41,29 +38,27 @@ p {
   border-top-right-radius: 7px;
 }
 
-.Butt--rules {
+.Btn--rules {
   background-color: #1fcca4;
-  position: relative;
-  padding: 18px;
   margin-bottom: 1px;
 }
-.Butt--play {
+.Btn--play {
   background-color: #0197f6;
-  position: relative;
-  padding: 18px;
 }
 
-.Butt--play:hover {
+.Btn--play:hover {
   background-color: #0090e9;
 }
 
-.Butt--rules:hover {
+.Btn--rules:hover {
   background-color: #1cbb96;
 }
-.Butt--rules,
-.Butt--play {
+.Btn--rules,
+.Btn--play {
   color: #ffffff;
   text-decoration: none;
   text-align: center;
   font-weight: lighter;
+  position: relative;
+  padding: 18px;
 }
