@@ -93,6 +93,9 @@ ol {
   margin-left: 30px;
   margin-right: 30px;
 }
+li {
+  padding: 5px;
+}
 figure {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
