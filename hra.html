@@ -8,51 +8,31 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container-hra">
-      <h1 class="Piškvorky">Piškvorky</h1>
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-      </style>
-
+    <h1 class="Piškvorky">Piškvorky</h1>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>
+    <div class="container-board">
       <div class="topnav">
-        <span
-          >HRAJE: <img class="circle-play" src="circle.svg" alt="kroužek"
-        /></span>
+        <div class="content_left">
+          <span
+            >HRAJE: <img class="circle-play" src="circle.svg" alt="kroužek"
+          /></span>
+        </div>
 
-        <a class="Btn--home" href="index.html"
-          ><img src="home.svg" alt="ikona home"
-        /></a>
+        <div class="content_right">
+          <a class="home" href="index.html"
+            ><img class="home--foto" src="home.svg" alt="ikona home"
+          /></a>
 
-        <a class="Btn--restart" href="hra.html"
-          ><img src="restart.svg" alt="ikona restart"
-        /></a>
+          <a class="restart" href="hra.html"
+            ><img class="restart--foto" src="restart.svg" alt="ikona restart"
+          /></a>
+        </div>
       </div>
-      <div class="button-field">
-        <button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button
-        ><button></button><button></button><button></button><button></button>
+
+      <div>
+        <button class="btn--grid"></button>
       </div>
     </div>
   </body>

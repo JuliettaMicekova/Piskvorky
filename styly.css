@@ -129,6 +129,10 @@ figure {
 .Piškvorky {
   font-size: 60px;
 }
+.container-board {
+  max-width: 80vmin;
+}
+/* navigation bar */
 
 span {
   color: #ffffff;
@@ -140,48 +144,46 @@ span {
   filter: invert(100%);
 }
 
-/* buttons home/restart */
 .topnav {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px 0;
 }
-.Btn--home {
+.home--foto {
   box-sizing: border-box;
-  width: 40px;
-  height: 40px;
   border-radius: 7px;
   background-color: #1fcca4;
-  padding: 7px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
 }
-.Btn--home:hover {
+.home--foto:hover {
   background-color: #1cbb96;
 }
-.Btn--restart {
+.restart--foto {
   box-sizing: border-box;
   border-radius: 7px;
   background-color: #0197f6;
   width: 40px;
   height: 40px;
-  padding: 7px;
+  padding: 8px;
 }
 
-.Btn--restart:hover {
+.restart--foto:hover {
   background-color: #0090e9;
 }
 
-.container-hraci-pole {
-  max-width: 80vmin;
-}
 /* hraci pole */
-.button-field {
+/* .button-field {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid black;
   width: 100%;
   margin: 20px 0;
-}
+} */
 
-.button-field button {
+/* .button-field button {
   width: calc (100% / 10);
   height: 8vmin;
   border: 1px solid black;
@@ -192,4 +194,11 @@ span {
 .button-field button:hover,
 .button-field button:focus {
   opacity: 0.6;
+} */
+
+button.grid {
+  display: table;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  border: 1px solid black;
 }
