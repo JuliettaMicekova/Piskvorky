@@ -17,6 +17,7 @@ h1 {
   font-size: 300%;
   letter-spacing: 2px;
   text-align: center;
+  color: #ffffff;
 }
 
 .container {
@@ -125,6 +126,17 @@ figure {
 
 /* ---------------- Úloha č.3.------------------ */
 
-body {
+.container-hraci-pole {
   max-width: 80vmin;
+}
+.Piškvorky {
+  font-size: 60px;
+}
+
+span {
+  filter: invert(100%);
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
