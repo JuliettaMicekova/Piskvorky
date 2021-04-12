@@ -64,7 +64,7 @@ h1 {
   position: relative;
   padding: 18px;
 }
-/* ---------------- Uloha č.2.------------------ */
+/* ---------------- Úloha č.2.------------------ */
 
 .circle,
 .cross {
@@ -106,7 +106,7 @@ figure {
 .instruction {
   width: 100%;
 }
-/* ---------------responzivni web---------------- */
+/* ---------------responzívny web---------------- */
 @media (min-width: 800px) {
   .container-pravidla {
     width: 800px;
@@ -121,4 +121,10 @@ figure {
     max-width: 45%;
     margin: 0 0 20px 0;
   }
+}
+
+/* ---------------- Úloha č.3.------------------ */
+
+body {
+  max-width: 80vmin;
 }
