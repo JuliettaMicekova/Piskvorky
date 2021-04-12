@@ -141,54 +141,55 @@ span {
 }
 
 /* buttons home/restart */
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+}
 .Btn--home {
-  position: relative;
   box-sizing: border-box;
-  width: 30px;
-  height: 30px;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
   background-color: #1fcca4;
+  padding: 7px;
 }
 .Btn--home:hover {
   background-color: #1cbb96;
 }
 .Btn--restart {
-  position: relative;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+  box-sizing: border-box;
+  border-radius: 7px;
   background-color: #0197f6;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  padding: 7px;
 }
 
 .Btn--restart:hover {
   background-color: #0090e9;
 }
 
-.topnav {
-  display: flex;
-}
-
 .container-hraci-pole {
   max-width: 80vmin;
 }
-
+/* hraci pole */
 .button-field {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid black;
   width: 100%;
-  background-color: ;
+  margin: 20px 0;
 }
 
 .button-field button {
-  width: calc(100% / 10);
+  width: calc (100% / 10);
   height: 8vmin;
   border: 1px solid black;
   flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+.button-field button:hover,
+.button-field button:focus {
+  opacity: 0.6;
 }
