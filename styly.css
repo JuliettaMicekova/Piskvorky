@@ -131,6 +131,9 @@ figure {
 }
 .container-board {
   max-width: 80vmin;
+  display: block;
+  justify-content: center;
+  margin: auto;
 }
 /* navigation bar */
 
@@ -196,9 +199,19 @@ span {
   opacity: 0.6;
 } */
 
-button.grid {
-  display: table;
+.grid-container {
+  display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
+  border: 2px solid black;
+}
+
+.btn-grid {
+  width: 8vmin;
+  height: 8vmin;
   border: 1px solid black;
+  opacity: 0.4;
+}
+.btn-grid:hover {
+  cursor: pointer;
 }
