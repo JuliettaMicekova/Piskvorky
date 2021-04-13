@@ -127,11 +127,10 @@ figure {
 /* ---------------- Úloha č.3.------------------ */
 
 .Piškvorky {
-  font-size: 60px;
+  font-size: 70px;
 }
 .container-board {
   max-width: 80vmin;
-  display: block;
   justify-content: center;
   margin: auto;
 }
@@ -177,41 +176,20 @@ span {
   background-color: #0090e9;
 }
 
-/* hraci pole */
-/* .button-field {
+.game-board {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
-  width: 100%;
-  margin: 20px 0;
-} */
+}
 
-/* .button-field button {
-  width: calc (100% / 10);
-  height: 8vmin;
+.game-button {
+  width: calc(80vmin / 10);
+  height: calc(80vmin / 10);
   border: 1px solid black;
-  flex-grow: 1;
-  margin: 0;
+  opacity: 0.5;
   padding: 0;
 }
-.button-field button:hover,
-.button-field button:focus {
-  opacity: 0.6;
-} */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  border: 2px solid black;
-}
-
-.btn-grid {
-  width: 8vmin;
-  height: 8vmin;
-  border: 1px solid black;
-  opacity: 0.4;
-}
-.btn-grid:hover {
+.game-button:hover,
+.game-button:focus {
   cursor: pointer;
+  filter: brightness(100%);
 }
