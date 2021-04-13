@@ -192,5 +192,5 @@ span {
 .game-button:hover,
 .game-button:focus {
   cursor: pointer;
-  filter: brightness(100%);
+  filter: brightness(120%);
 }
