@@ -175,7 +175,7 @@ span {
 .restart--foto:hover {
   background-color: #0090e9;
 }
-
+/* game board */
 .game-board {
   display: flex;
   flex-wrap: wrap;
