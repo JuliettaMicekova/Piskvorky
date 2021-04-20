@@ -180,17 +180,19 @@ span {
 .board-field {
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .board-field__btn {
   width: calc(80vmin / 10);
   height: calc(80vmin / 10);
   border: 1px solid black;
-  /* opacity: 0.5; */
   padding: 0;
+  background-color: rgb(230, 209, 225);
 }
+
 .board-field__btn:hover,
 .board-field__btn:focus {
   cursor: pointer;
-  /* filter: brightness(120%); */
+  filter: brightness(120%);
 }
