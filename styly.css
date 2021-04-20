@@ -67,8 +67,8 @@ h1 {
 }
 /* ---------------- Úloha č.2.------------------ */
 
-.circle,
-.cross {
+.circle-rules,
+.cross-rules {
   width: 1em;
   height: 1em;
   filter: invert(100%);
@@ -195,4 +195,37 @@ span {
 .board-field__btn:focus {
   cursor: pointer;
   filter: brightness(120%);
+}
+/* ------------------- Animation symbols---------------- */
+.board__field--circle {
+  background-image: url('circle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.5rem;
+  animation-name: symbol-growth;
+  animation-duration: 0.15s;
+}
+
+.board__field--cross {
+  background-image: url('cross.svg');
+  background-repeat: no-repeat;
+  animation-name: symbol-growth;
+  animation-duration: 0.15s;
+  background-position: center;
+  background-size: 2.5rem;
+}
+
+.draw-player {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.2em;
+}
+
+@keyframes symbol-growth {
+  0% {
+    background-size: 0%;
+  }
+  100% {
+    background-size: 60%;
+  }
 }
