@@ -142,7 +142,7 @@ span {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-.players--draw {
+.draw-player {
   filter: invert(100%);
 }
 
@@ -177,20 +177,20 @@ span {
 }
 /* --------- game board ---------- */
 
-.board__field {
+.board-field {
   display: flex;
   flex-wrap: wrap;
 }
 
-.game-button {
+.board-field__btn {
   width: calc(80vmin / 10);
   height: calc(80vmin / 10);
   border: 1px solid black;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   padding: 0;
 }
-.game-button:hover,
-.game-button:focus {
+.board-field__btn:hover,
+.board-field__btn:focus {
   cursor: pointer;
-  filter: brightness(120%);
+  /* filter: brightness(120%); */
 }
