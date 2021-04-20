@@ -142,7 +142,7 @@ span {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-.circle-play {
+.players--draw {
   filter: invert(100%);
 }
 
@@ -177,7 +177,7 @@ span {
 }
 /* --------- game board ---------- */
 
-.game-board {
+.board__field {
   display: flex;
   flex-wrap: wrap;
 }
