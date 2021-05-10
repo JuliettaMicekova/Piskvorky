@@ -110,11 +110,11 @@ const getField = (row, column) => {
 // ----funkcia ktora pre dane policko vrati objekt s riadkom a stlpcom, kde bol umiestneny symbol---
 const getPosition = (field) => {
   let fieldIndex = 0;
-  while (fieldIndex < fields.length && field !== [fieldIndex]) {
+  while (fieldIndex < fields.length && field !== fields[fieldIndex]) {
     fieldIndex++;
   }
-  return (
-    { row: Math.floor(fieldIndex / boardSize) },
-    { column: fieldIndex % boardSize }
-  );
+  return {
+    row: Math.floor(fieldIndex / boardSize),
+    column: fieldIndex % boardSize,
+  };
 };
